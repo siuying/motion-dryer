@@ -12,7 +12,7 @@ app/
   - controllers/
     - sample_controller.rb
   - views/
-    - my/
+    - sample/
       sample_view.rb
       sample_table_view.rb
   - helpers/
