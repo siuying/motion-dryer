@@ -23,7 +23,7 @@ Add following to your project Rakefile:
 
 ```ruby
 Motion::Project::App.setup do |app|
-  app.name = 'clipbook'
+  app.name = 'my_app'
   app.controllers = ['sample']
 end
 ```
