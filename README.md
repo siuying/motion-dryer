@@ -27,10 +27,10 @@ app/
     - sample_controller.rb
   - views/
     - common/
-      shared_view.rb
+      - shared_view.rb
     - sample/
-      sample_view.rb
-      sample_table_view.rb
+      - sample_view.rb
+      - sample_table_view.rb
   - helpers/
     - application_helper.rb
     - sample_helper.rb
