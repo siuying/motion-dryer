@@ -2,6 +2,20 @@
 
 List of helpers/utilities help you to keep your RubyMotion project DRY.
 
+## Installation
+
+```
+gem install motion-dryer
+```
+
+## Usage
+
+Add following to the Rakefile
+
+```ruby
+require 'motion-dryer'
+```
+
 ## Automatic Controller Dependency
 
 Getting tired of setting up file_dependnecies on your projects? Just 
