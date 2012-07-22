@@ -20,9 +20,9 @@ module Motion; module Project
 
   class App
     class << self
-      def setup_add_dependency
+      def setup_add_dependency(&block)
         config.add_dependency(self)
-        setup_before_add_dependency
+        setup_before_add_dependency(&block)
       end
 
       alias_method :setup_before_add_dependency, :setup
